@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+    <question_choice action="INSERT_OR_UPDATE">
+        <inactive>true</inactive>
+        <misc>0</misc>
+        <order>100</order>
+        <published_ref/>
+        <question display_value="laptop type">9aa9e183c3a98b9427ef78cc050131cd</question>
+        <rec_misc>0</rec_misc>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-22 18:16:01</sys_created_on>
+        <sys_id>27fa6d07c3a98b9427ef78cc05013102</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>MacBook</sys_name>
+        <sys_package display_value="Laptop Request Management" source="x_1877551_laptop_0">83150bfec3654b9427ef78cc05013195</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Laptop Request Management">83150bfec3654b9427ef78cc05013195</sys_scope>
+        <sys_update_name>question_choice_27fa6d07c3a98b9427ef78cc05013102</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-22 18:16:19</sys_updated_on>
+        <text>MacBook</text>
+        <value>MacBook</value>
+    </question_choice>
+    <fx_price action="delete_multiple" query="id=27fa6d07c3a98b9427ef78cc05013102"/>
+</record_update>
