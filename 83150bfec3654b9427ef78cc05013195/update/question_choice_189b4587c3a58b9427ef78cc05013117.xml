@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
     <question_choice action="INSERT_OR_UPDATE">
         <inactive>false</inactive>
-        <order>100</order>
+        <order>200</order>
         <published_ref/>
-        <question display_value="laptop type">9aa9e183c3a98b9427ef78cc050131cd</question>
+        <question display_value="laptop_type">8c9b4587c3a58b9427ef78cc05013107</question>
         <sys_class_name>question_choice</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2026-06-22 18:14:04</sys_created_on>
-        <sys_id>967aa147c3698b9427ef78cc050131e4</sys_id>
-        <sys_mod_count>3</sys_mod_count>
-        <sys_name>standard laptop</sys_name>
+        <sys_created_on>2026-06-22 15:58:24</sys_created_on>
+        <sys_id>189b4587c3a58b9427ef78cc05013117</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Developer Laptop</sys_name>
         <sys_package display_value="Laptop Request Management" source="x_1877551_laptop_0">83150bfec3654b9427ef78cc05013195</sys_package>
         <sys_policy/>
         <sys_scope display_value="Laptop Request Management">83150bfec3654b9427ef78cc05013195</sys_scope>
-        <sys_update_name>question_choice_967aa147c3698b9427ef78cc050131e4</sys_update_name>
+        <sys_update_name>question_choice_189b4587c3a58b9427ef78cc05013117</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-06-24 15:46:12</sys_updated_on>
-        <text>standard laptop</text>
-        <value>Standard</value>
+        <sys_updated_on>2026-06-22 15:58:24</sys_updated_on>
+        <text>Developer Laptop</text>
+        <value>developer_laptop</value>
     </question_choice>
-    <fx_price action="delete_multiple" query="id=967aa147c3698b9427ef78cc050131e4"/>
+    <fx_price action="delete_multiple" query="id=189b4587c3a58b9427ef78cc05013117"/>
 </record_update>

@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
     <question_choice action="INSERT_OR_UPDATE">
-        <inactive>true</inactive>
-        <order>100</order>
+        <inactive>false</inactive>
+        <order>300</order>
         <published_ref/>
-        <question display_value="laptop type">9aa9e183c3a98b9427ef78cc050131cd</question>
+        <question display_value="laptop_type">8c9b4587c3a58b9427ef78cc05013107</question>
         <sys_class_name>question_choice</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2026-06-22 18:15:50</sys_created_on>
-        <sys_id>f0ea2987c3698b9427ef78cc050131e1</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_created_on>2026-06-22 15:58:24</sys_created_on>
+        <sys_id>5c9b4587c3a58b9427ef78cc05013122</sys_id>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name>High Performance Laptop</sys_name>
         <sys_package display_value="Laptop Request Management" source="x_1877551_laptop_0">83150bfec3654b9427ef78cc05013195</sys_package>
         <sys_policy/>
         <sys_scope display_value="Laptop Request Management">83150bfec3654b9427ef78cc05013195</sys_scope>
-        <sys_update_name>question_choice_f0ea2987c3698b9427ef78cc050131e1</sys_update_name>
+        <sys_update_name>question_choice_5c9b4587c3a58b9427ef78cc05013122</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-06-24 15:45:58</sys_updated_on>
+        <sys_updated_on>2026-06-22 15:58:24</sys_updated_on>
         <text>High Performance Laptop</text>
-        <value>High Performance Laptop</value>
+        <value>high_performance_laptop</value>
     </question_choice>
-    <fx_price action="delete_multiple" query="id=f0ea2987c3698b9427ef78cc050131e1"/>
+    <fx_price action="delete_multiple" query="id=5c9b4587c3a58b9427ef78cc05013122"/>
 </record_update>

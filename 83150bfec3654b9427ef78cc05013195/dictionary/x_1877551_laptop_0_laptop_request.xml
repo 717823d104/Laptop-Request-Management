@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="ba3987f6c3a54b9427ef78cc050131c4" label="laptop request" max_length="40" name="x_1877551_laptop_0_laptop_request" type="collection">
+        <element choice="1" label="Laptop Type" max_length="40" name="laptop_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="standard laptop" sequence="0" value="standard_laptop"/>
+                <element inactive_on_update="false" label="Developer laptop" sequence="1" value="developer_laptop"/>
+                <element inactive_on_update="false" label="Designer laptop" sequence="2" value="designer_laptop"/>
+            </choice>
+        </element>
+        <element display="true" label="request number" max_length="40" name="request_number" type="string"/>
+        <element choice="1" label="Approval Status" max_length="40" name="approval_status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Pending" sequence="1" value="pending"/>
+                <element inactive_on_update="false" label="Approval" sequence="0" value="approval"/>
+                <element inactive_on_update="false" label="Rejected" sequence="2" value="rejected"/>
+            </choice>
+        </element>
+        <element label="Requested For" max_length="32" name="requested_for" reference="sys_user" type="reference"/>
+        <element label="Department" max_length="32" name="department" reference="x_1877551_laptop_0_laptop_request" type="reference"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label=" Request Number" max_length="40" name="number" type="string"/>
+        <element choice="1" label="Task Status" max_length="40" name="task_status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="open" sequence="0" value="open"/>
+                <element inactive_on_update="false" label="completed" sequence="3" value="completed"/>
+                <element inactive_on_update="false" label="in_progress" sequence="1" value="in_progress"/>
+                <element inactive_on_update="false" label="waiting_delivery" sequence="2" value="waiting_delivery"/>
+            </choice>
+        </element>
+        <element label="justification" max_length="40" name="justification" type="string"/>
+        <element label="Delivery date" max_length="40" name="delivery_date" type="glide_date_time"/>
+        <element label="cost" max_length="255" name="cost" type="integer"/>
+        <index name="index">
+            <element name="department"/>
+        </index>
+        <index name="index2">
+            <element name="requested_for"/>
+        </index>
+    </element>
+</database>

@@ -1,23 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
     <question_choice action="INSERT_OR_UPDATE">
-        <inactive>true</inactive>
-        <misc>0</misc>
+        <inactive>false</inactive>
         <order>100</order>
         <published_ref/>
         <question display_value="laptop type">9aa9e183c3a98b9427ef78cc050131cd</question>
-        <rec_misc>0</rec_misc>
         <sys_class_name>question_choice</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-06-22 18:15:00</sys_created_on>
         <sys_id>cf9aedc3c3a98b9427ef78cc0501316b</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>Developer Laptop</sys_name>
         <sys_package display_value="Laptop Request Management" source="x_1877551_laptop_0">83150bfec3654b9427ef78cc05013195</sys_package>
         <sys_policy/>
         <sys_scope display_value="Laptop Request Management">83150bfec3654b9427ef78cc05013195</sys_scope>
         <sys_update_name>question_choice_cf9aedc3c3a98b9427ef78cc0501316b</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-06-22 18:16:37</sys_updated_on>
+        <sys_updated_on>2026-06-24 15:46:16</sys_updated_on>
         <text>Developer Laptop</text>
         <value>Developer</value>
     </question_choice>
